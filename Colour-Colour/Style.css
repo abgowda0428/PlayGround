@@ -1,0 +1,59 @@
+/* 
+External CSS linked the file inside the html file using the link tag
+ */
+
+/* Styling by Selecting the tags */
+h1[Dragable ="true"]{
+    color: blueviolet;
+}
+
+/* Styling by Tagrgeting the Class */
+.second[Content-Editable = "true"]{
+    background-color: blue;
+}
+
+/* Styling by tagrgetiing the id */
+#third{
+    background-color: aquamarine;
+}
+/* commenting in the css */
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* styling by Grouping the elemnt */
+h1,h2,h3{
+    font-weight: 900;
+}
+
+/* Colouring */
+
+h1{
+    color: red;
+}
+
+.second{
+    color: rgb(red, green, blue);
+}
+
+#third{
+    /* color: #000000; */
+    color: hsl(50, 85%, 75%);
+}
+
+/* 
+
+Order of Proirity
+1.!important
+2.Inline Css
+3.Internal Css
+4.External Css
+5.ID
+6.By Tags
+7.Class
+8.Parent
+9.Child
+10.Grouping
+
+*/
