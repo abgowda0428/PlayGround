@@ -91,4 +91,95 @@ console.log(arr6[1][2])
 let date = new Date()
 console.log(date)
 
+let newobj = {
+    name:"abhi",
+    age:23,
+    plcae:"Malir",
+}
 
+console.log(obj["name"]);
+
+let neobj = new Object();
+
+neobj.name = "bjhl",
+neobj.age = 23,
+
+console.log(neobj)
+console.log(Object.entries(neobj))
+
+let desobj = {
+    name:"abhi",
+    age:23,
+    place:"Malur",
+    meet:(value)=>{
+        console.log(value);
+    },
+    nesobj:{
+        pincode:67878,
+        staete:"kar"
+    }
+}
+
+let {name,age,...desobj3} = desobj;
+let {nesobj:{pincode,staete}} = desobj;
+console.log(desobj3)
+console.log(pincode,staete)
+
+desobj.meet("hello");
+
+if(age>= 18){
+    console.log("hello")
+}else{
+    console.log("hi")
+}
+
+let a2 = 10;
+
+if(a2>=10){
+    console.log("hello")
+}
+else if(a2 == 10){
+    console.log("damara")
+}else{
+    console.log('ello bande')
+}
+
+let value = "Kannada"
+
+switch (value) {
+    case 0:
+        console.log("Kannad")
+        break;
+    case 1:
+        console.log("English")
+        break;
+    case 2:
+        console.log("tealuge")
+        break;    
+    default:
+        console.log("None")
+        break;
+}
+
+for(let i = 0;i<=10;i++){
+    console.log("hello Polar")
+}
+
+
+for(let i = 0;i<=10;i=i+1){
+    for(let i = 0;i<=10;i++){
+        console.log("hello Polar")
+    }
+}
+
+let i = 1;
+
+// while(i<=1000000000n){
+//     console.log("Hello Tagruu");
+//     i = 10000000000n
+// }
+
+let a6 = 10;
+do {
+    console.log("This is Do while")
+} while (a6=10);
