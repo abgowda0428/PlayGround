@@ -183,3 +183,8 @@ let a6 = 10;
 do {
     console.log("This is Do while")
 } while (a6=10);
+
+let a7 = 10;
+do {
+    console.log("This is Do while")
+} while (a6=10);
